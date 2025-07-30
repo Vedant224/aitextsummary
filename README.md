@@ -6,10 +6,15 @@ https://aitextsummary.onrender.com/
 The API is stateless and uses in-memory storage for the assignment requirements.
 For a production environment with persistent storage, a database integration 
 would be recommended.
+
+##Photo
+
+
+
 ## Example Responses
 
 ### Standard Summarization
-```json
+```
 {
     "original": {
         "text": "Climate change is one of the most pressing issues of our time...",
@@ -24,6 +29,7 @@ would be recommended.
         "processingTime": 1173
     }
 }
+```
 ## Enhanced Features
 
 ### Precision and Validation
