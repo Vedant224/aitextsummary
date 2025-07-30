@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "d121b586-4028-4130-872e-237ef6dcdf62",
+		"name": "aitextsummary",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42901251"
+	},
+	"item": [
+		{
+			"name": "https://aitextsummary.onrender.com/api/summarize/authenticated",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoidmVkYW50MjItY29kZSJ9LCJpYXQiOjE3NTM5MDA0NDEsImV4cCI6MTc1MzkwNDA0MX0.W0e9Njhy-xBC1ynH8N_ZQ1cz9opdX09Zg1AZIkG1X7I",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Climate change is one of the most pressing issues of our time...\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://aitextsummary.onrender.com/api/summarize/authenticated",
+					"protocol": "https",
+					"host": [
+						"aitextsummary",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"summarize",
+						"authenticated"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://aitextsummary.onrender.com/api/summarize",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"text\": \"Climate change is one of the most pressing issues of our time. The Earth's average temperature has increased by about 1 degree Celsius since the late 19th century, primarily due to increased carbon dioxide and other human-made emissions into the atmosphere. Most of this warming has occurred in the past 40 years, with the six warmest years on record taking place since 2014. Climate change impacts include more frequent and severe weather events, rising sea levels, and ecosystem disruption. Scientists emphasize the need for immediate action to reduce greenhouse gas emissions to prevent the most catastrophic effects of climate change.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://aitextsummary.onrender.com/api/summarize",
+					"protocol": "https",
+					"host": [
+						"aitextsummary",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"summarize"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://aitextsummary.onrender.com/api/history",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoidmVkYW50MjItY29kZSJ9LCJpYXQiOjE3NTM5MDA0NDEsImV4cCI6MTc1MzkwNDA0MX0.W0e9Njhy-xBC1ynH8N_ZQ1cz9opdX09Zg1AZIkG1X7I",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://aitextsummary.onrender.com/api/history",
+					"protocol": "https",
+					"host": [
+						"aitextsummary",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"history"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
