@@ -1,11 +1,29 @@
 ## Live Deployment
 
 This API is deployed on Railway and available at:
-https://your-deployment-url
+https://aitextsummary.onrender.com/
 
 The API is stateless and uses in-memory storage for the assignment requirements.
 For a production environment with persistent storage, a database integration 
 would be recommended.
+## Example Responses
+
+### Standard Summarization
+```json
+{
+    "original": {
+        "text": "Climate change is one of the most pressing issues of our time...",
+        "wordCount": 100
+    },
+    "summary": {
+        "text": "Earth's average temperature has risen significantly, primarily due to human-caused emissions, in the past century. This warming trend, most pronounced in recent decades, is causing more extreme weather, rising sea levels, and harming ecosystems. Scientists urge immediate action to curb greenhouse gas emissions and mitigate the worst impacts of climate change.",
+        "wordCount": 51
+    },
+    "stats": {
+        "compressionRatio": "0.51",
+        "processingTime": 1173
+    }
+}
 ## Enhanced Features
 
 ### Precision and Validation
