@@ -6,10 +6,16 @@ https://aitextsummary.onrender.com/
 The API is stateless and uses in-memory storage for the assignment requirements.
 For a production environment with persistent storage, a database integration 
 would be recommended.
+
+##Photo
+AI summary 
+![API Response](https://private-user-images.githubusercontent.com/118610480/472665045-c9ffe994-fd7a-4c3c-99ae-b4bd8a2b813c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTM5MDIyODksIm5iZiI6MTc1MzkwMTk4OSwicGF0aCI6Ii8xMTg2MTA0ODAvNDcyNjY1MDQ1LWM5ZmZlOTk0LWZkN2EtNGMzYy05OWFlLWI0YmQ4YTJiODEzYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDczMFQxODU5NDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNjZmZGI0ZTY1NzZhOGM4YWFhMjU5NGQxMTI2MmI0MzA0YmQzY2Y4OTJlZGRlMWZjNTgxMTE3Zjk2MTc5N2VlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.PKouwIH1xsltyfcKXCkC2m37MgDCtqVPvmDFWXTBrdM)
+Getting history of authenticated user
+![API Response](https://private-user-images.githubusercontent.com/118610480/472666086-ff0622cb-9274-440e-bf93-38c5fd4a6699.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTM5MDI0ODgsIm5iZiI6MTc1MzkwMjE4OCwicGF0aCI6Ii8xMTg2MTA0ODAvNDcyNjY2MDg2LWZmMDYyMmNiLTkyNzQtNDQwZS1iZjkzLTM4YzVmZDRhNjY5OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDczMFQxOTAzMDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NjQ3YjNhY2VlNjk0MTkwYWM2ODQ0NjgxYjgwZGZjMGE2MjZhMDhkOGZlNmQwYTlkNjEwNjRkMTlhM2VjMDQxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.oLJDSHwVrWxtRAFFDqm3hd6ywUnQv-sFFi5DumB9jTc)
 ## Example Responses
 
 ### Standard Summarization
-```json
+```
 {
     "original": {
         "text": "Climate change is one of the most pressing issues of our time...",
@@ -24,6 +30,7 @@ would be recommended.
         "processingTime": 1173
     }
 }
+```
 ## Enhanced Features
 
 ### Precision and Validation
