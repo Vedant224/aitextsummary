@@ -9,9 +9,9 @@ would be recommended.
 
 ##Photo
 AI summary 
-![API Response](./screenshoot/Screenshot 2025-07-31 002501.png)
+![API Response](./screenshoot/ai-render-summary.png)
 Getting history of authenticated user
-![API Response](.)
+![API Response](./screenshoot/userauth-history.png)
 ## Example Responses
 
 ### Standard Summarization
